@@ -7,7 +7,7 @@ RUN apt update && apt install -y \
 
 RUN git clone https://github.com/jonigata/FramePlanner2.git
 WORKDIR /FramePlanner2
-RUN git checkout 570c152d7dd712239ce9d2af6efedc617c56f46d
+RUN git checkout 80a057494c24039cd4fd01425a95d917950ed813
 
 RUN npm install
 
